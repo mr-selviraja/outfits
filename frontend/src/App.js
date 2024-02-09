@@ -64,7 +64,7 @@ const App = () => {
 
   return (
     <>
-      <Navbar className='bg-white sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4'>
+      <Navbar className='bg-primary font-sans sticky top-0 z-10 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4'>
         <div className='flex items-center justify-between text-blue-gray-900'>
           <Typography
             as='a'
@@ -145,7 +145,7 @@ const App = () => {
 
       <Button>Something</Button>
 
-      <p className='bg-red-500'>
+      <p className='bg-secondary'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat,
         facere quia ratione harum dolorem debitis corrupti tenetur accusantium
         molestiae expedita quis doloremque rem, alias pariatur aut temporibus
