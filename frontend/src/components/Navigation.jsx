@@ -114,7 +114,7 @@ const Navigation = () => {
           {navList}
 
           <Button fullWidth size='sm' color='blue-gray'>
-            <span>Login</span>
+            Login
           </Button>
         </Collapse>
       </div>
