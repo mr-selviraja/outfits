@@ -3,12 +3,8 @@ import Navigation from './components/Navigation';
 
 const App = () => {
   return (
-    <div className='bg-primary'>
+    <div className='bg-light'>
       <Navigation />
-
-      <h1 className='text-3xl text-secondary'>
-        &#8902; &#8902; &#8902; &#8902; &#8902;
-      </h1>
 
       <p className='container mx-auto'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat,

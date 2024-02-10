@@ -8,11 +8,10 @@ module.exports = withMT({
         sans: ['League Spartan', 'Helvetica', 'Arial', 'sans-serif'],
       },
       colors: {
-        primary: '#E8F5F7',
-        secondary: '#EBC97F',
-        white: '#FFFFFF',
         dark: '#212223',
         grey: '#777777',
+        light: '#f1f2f6',
+        white: '#FFFFFF',
       },
       borderRadius: {
         none: '0',

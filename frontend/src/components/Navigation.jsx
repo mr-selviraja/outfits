@@ -48,7 +48,7 @@ const Navigation = () => {
   );
 
   return (
-    <Navbar className='navigation bg-white font-sans sticky top-0 z-10 h-max max-w-full rounded-none p-6 lg:px-8 lg:py-4'>
+    <Navbar className='navigation font-sans sticky top-0 z-10 h-max max-w-full rounded-none p-6 lg:px-8 lg:py-4'>
       <div className='container mx-auto'>
         <div className='flex items-center justify-between text-blue-gray-900'>
           <img
@@ -63,10 +63,10 @@ const Navigation = () => {
 
             <Button
               size='sm'
-              variant='outlined'
-              className='hidden lg:inline-block hover:bg-dark hover:text-white'
+              className='hidden lg:inline-block shadow-none hover:shadow-none'
+              color='blue-gray'
             >
-              <span>Login</span>
+              Login
             </Button>
 
             {/* Toggle Button */}
@@ -113,12 +113,7 @@ const Navigation = () => {
         <Collapse open={openNav}>
           {navList}
 
-          <Button
-            fullWidth
-            size='sm'
-            variant='outlined'
-            className='hover:bg-dark hover:text-white'
-          >
+          <Button fullWidth size='sm' color='blue-gray'>
             <span>Login</span>
           </Button>
         </Collapse>
