@@ -12,7 +12,7 @@ module.exports = withMT({
         secondary: '#EBC97F',
         white: '#FFFFFF',
         dark: '#212223',
-        grey: '#B8B8B8',
+        grey: '#777777',
       },
       borderRadius: {
         none: '0',
